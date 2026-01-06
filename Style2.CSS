@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+h1:hover{
+    color: white;
+}
+ul>li{
+    color: white;
+}
+ui li:nth-child (1){
+    font-size:large;
+}
+p::first-letter{
+    font-size: 200%;
+    color: ehite;
+}
