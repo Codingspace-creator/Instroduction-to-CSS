@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            min-height: 200vh;
+        }
+
+        div {
+            border: 1px solid;
+        }
+
+        .fixed {
+            position: fixed;
+        }
+
+        .Sticky {
+            position: sticky;
+            top: 0;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <Center>Positioning</Center>
+    </h1>
+    <div>Static</div>
+    <div class="relative">Relative</div>
+    <div class="fixed">Fixed</div>
+    <div class="Sticky">Sticky</div>
+    <div class="Absolute">Absolute</div>
+</body>
+
+</html>
